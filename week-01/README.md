@@ -1,4 +1,3 @@
-
 ## **Week 1: Choosing OS and Setting Up Development Environment**
 
 ### **1. Choosing the Operating System**
@@ -14,6 +13,9 @@
 - Open-source, developer-friendly.
 - Many powerful CLI tools.
 - The same environment as most production servers.
+- uncle Bob says `sudo apt-get install freedom`.
+- Fireship video: [Best OS for programming?](https://www.youtube.com/watch?v=AdygBbbEnco).
+- <iframe width="560" height="315" src="https://www.youtube.com/watch?v=AdygBbbEnco" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 **Action**:
 
