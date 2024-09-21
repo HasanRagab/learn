@@ -75,7 +75,7 @@
       ```bash
       nvm install node
       ```
-      - Verify installation:
+      - Verify installation:inux Command Line Basics
       ```bash
       node -v
       npm -v
