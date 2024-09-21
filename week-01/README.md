@@ -14,7 +14,8 @@
 - Many powerful CLI tools.
 - The same environment as most production servers.
 - Uncle Bob says `sudo apt-get install freedom`.
-- Fireship video: [Best OS for programming?](https://www.youtube.com/watch?v=AdygBbbEnco)
+- Fireship video: [Best OS for programming?](https://www.youtube.com/watch?v=AdygBbbEnco).
+- <iframe width="560" height="315" src="https://www.youtube.com/embed/AdygBbbEnco" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 **Action**:
 
