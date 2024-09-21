@@ -7,6 +7,7 @@
   - **Windows**: Good for general use but needs extra setup for dev work.
   - **Linux (Recommended)**: Ubuntu or other distributions are best for development.
   - **macOS**: Native UNIX environment, but costly.
+  - Fireship video: [Best OS for programming?](https://www.youtube.com/watch?v=AdygBbbEnco).
 
 ### **Why Linux?**
 
@@ -14,7 +15,7 @@
 - Many powerful CLI tools.
 - The same environment as most production servers.
 - Uncle Bob says `sudo apt-get install freedom`.
-- Fireship video: [Best OS for programming?](https://www.youtube.com/watch?v=AdygBbbEnco).
+- Fireship video: [Linux Directories Explained in 100 Seconds](https://youtu.be/42iQKuQodW4?si=CVqFEB76MnnMGV8k).
 
 **Action**:
 
@@ -32,6 +33,9 @@
   - Opening the terminal (Ctrl+Alt+T for Linux, Terminal on macOS, PowerShell for Windows).
   - Basic commands: `ls`, `pwd`, `cd`, `mkdir`, `touch`.
 - **Learning Task**: Create directories and files via terminal.
+- **Resources**:
+  - [60 Linux Commands you NEED to know](https://youtu.be/gd7BXuUQ91w?si=--NxUuA834bYvFsB).
+  - [Linux Command Line Cheat Sheet](https://www.cheatography.com/davechild/cheat-sheets/linux-command-line/).
 
 #### **b. Install Essential Tools**
 
