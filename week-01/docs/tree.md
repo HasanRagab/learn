@@ -5,13 +5,16 @@
 #### **Concepts to Cover**:
 
 1. **Understanding the `tree` Command**:
+
    - The `tree` command lists files and directories in a tree-like format, making it easier to visualize the structure of a directory.
 
 2. **Using Recursion**:
+
    - Introduce the concept of recursion to navigate through directories and list their contents.
    - Discuss how to call the script recursively to handle subdirectories.
 
 3. **Indentation for Hierarchy**:
+
    - Use spaces or special characters (like `|` and `--`) to create visual indentation that represents the directory structure.
 
 4. **Handling Command-Line Arguments**:
@@ -50,9 +53,12 @@ echo "Directory structure of $start_dir:"
 print_tree "$start_dir" ""
 ```
 
+[tree.sh](./tree.sh).
+
 ### **Usage**:
+
 - Save the script as `tree.sh`.
 - Make it executable: `chmod +x tree.sh`.
-- Run the script with an optional directory argument: 
+- Run the script with an optional directory argument:
   - To view the current directory: `./tree.sh`
   - To view a specific directory: `./tree.sh /path/to/directory`
