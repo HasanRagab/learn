@@ -1,22 +1,18 @@
-class OldPrinter:
+class HeaderURL:
+    __instance = None
+    def __init__(self):
+        self.url = 'https://www.google.com'
+    
+    def __new__(cls):
+        if cls.__instance is None:
+            cls.__instance = super().__new__(cls)
+        return cls.__instance
 
-    def print_text(self, text):
-        print(f"Old Printer: {text}")
 
-class NewPrinter:
+header1 = HeaderURL()
+header2 = HeaderURL()
 
-    def print_document(self, text):
-        print(f"New Printer: {text}")
+header1.url='https://www.appstone.com'
 
-class PrinterAdapter:
-    def __init__(self, old_printer: OldPrinter):
-        self.old_printer = old_printer
-
-    def print_document(self, text):
-        self.old_printer.print_text(text)
-
-new = NewPrinter()
-new.print_document("Hello New Printer!")
-
-old = PrinterAdapter(OldPrinter())
-old.print_document("Hello Old Printer!")
+print(header1.url)
+print(header2.url)
